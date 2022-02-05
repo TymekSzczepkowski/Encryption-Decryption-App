@@ -1,0 +1,85 @@
+.input {
+  margin-left: 2.93rem;
+}
+
+textarea {
+  transition: all 0.5s;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding: 15px;
+  color: #121722;
+  background: white;
+  border: none;
+  height: 150px;
+  width: 60%;
+ max-width: 100%;
+  box-sizing: border-box;
+  outline-color: rgb(29, 99, 255, 0);
+  box-shadow: 0 0 10px rgba(0 0 0 / 8%);
+}
+textarea:focus {
+  transition: all 0.5s;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.plaintomorse {
+  margin-bottom: 1.5rem;
+}
+.plaintomorseText {
+  font-weight: 400;
+}
+.colorChangeBlue {
+  color: #1d63ff;
+}
+.colorChangeYellow {
+  color: #ffce32;
+}
+.inputText {
+  font-weight: 400;
+}
+.margin {
+  margin-bottom: 10px;
+}
+.outputValue {
+  font-size: 16px;
+  padding: 15px;
+  color: #121722;
+  background: white;
+  border: none;
+  height: 150px;
+  width: 70%;
+  box-sizing: border-box;
+  outline-color: rgb(29, 99, 255, 0);
+  box-shadow: 0 0 10px rgba(0 0 0 / 8%);
+}
+
+.invertLink{
+  margin-bottom: 10px;
+}
+.invertLink a {
+  transition: all 0.5s;
+  text-decoration: none;
+  color: #ffce32;
+}
+.invertLink a:hover {
+  font-size: 30px;
+  transition: all 0.5s;
+  color: #1d63ff;
+  text-decoration: line-through;
+}
+input[type=file]::file-selector-button {
+  border:none;
+  padding: 0.2em 1.4em;
+  background-color: #ffce32;
+  font-weight: 600;
+  transition: all 0.5s;
+  margin-bottom:10px;
+}
+
+input[type=file]::file-selector-button:hover {
+  padding: 1em 2.5em;
+  text-decoration: line-through;
+  transition: all 0.5s;
+  color: white;
+  background-color: #1d63ff;
+}
